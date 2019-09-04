@@ -7,7 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		//ObjetSeul object = new ObjetSeul();//marche pas pcq private->peut pas instancier
 		ObjetSeul object = ObjetSeul.getInstance();//va chercher son instance
-
+		
 	      //show the message
 	      object.showMessage();
 
